@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Aboutcard from "./Aboutcard";
-import Techstack from "./Techstack";
-import Toolstack from "./Toolstack";
+import AboutSkills from "./AboutSkills";
+import AboutTools from "./AboutTools";
+import Github from "./Github";
 import Title from "../Title";
 import './About.css';
 
@@ -21,7 +22,7 @@ export default function About() {
             </Col>
             <Col md={12} className='about-section-card'>
               <h1>
-                Who <strong> I`m </strong>?
+                Ajei ibnu <strong> Profile </strong>
               </h1>
               <Aboutcard />
             </Col>
@@ -34,15 +35,15 @@ export default function About() {
             Professional <strong>Skills</strong>
           </h1>
 
-            <Techstack />
+            <AboutSkills />
 
           <h1 className="project-heading">
             <strong>Tools</strong> I use
           </h1>
 
-            <Toolstack />
+            <AboutTools />
 
-          {/* <Github /> */}
+            <Github />
         </Container>
       </Container>
     </section>

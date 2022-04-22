@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import SIMPUS from "../../Assets/Projects/Simpus.png";
+import project1 from "../../Assets/Projects/image-project.png";
 import './Projects.css';
 
 export default function Projects() {
@@ -17,9 +17,9 @@ export default function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard 
-              imgPath={SIMPUS}
+              imgPath={project1}
               isBlog={false}
-              description="Sistem Manajemen Gudang Obat"
+              description="###############"
               link="/#"
             />
           </Col>

@@ -8,7 +8,7 @@ export default function Aboutcard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p>
-            Hi Everyone, I am <span>Ajei Ibnu </span>
+            Hi, I am <span>Ajei Ibnu </span>
             from <span>Indonesia</span> <br />
             I am website developer<br />
             Start coding from 2 last year ago.

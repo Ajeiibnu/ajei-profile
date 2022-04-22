@@ -33,6 +33,7 @@
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
+  border-radius: 16px !important;
 }
 
 .card-img-top {
@@ -44,13 +45,13 @@
   color: var(--tcolor-primary) !important;
   background-color: transparent !important;
   border-color: transparent !important;
+  border-radius: 16px !important;
 }
 
 .btn-primary:hover {
   color: var(--tcolor-primary) !important;
   background-color: #beceff !important;
-  border-color: #14151b !important;
-  border-width: 2px;
+  border-color: rgba(20, 21, 27, 0.5) !important;
 }
 .btn:focus {
   outline: none !important;

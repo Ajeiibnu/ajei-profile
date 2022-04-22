@@ -5,7 +5,7 @@ import {
   SiUnity,
 } from "react-icons/si";
 
-export default function Toolstack() {
+export default function AboutTools() {
   return (
     <Row style={{ justifyContent:"center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">

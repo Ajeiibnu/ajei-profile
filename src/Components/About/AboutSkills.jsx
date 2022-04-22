@@ -6,12 +6,10 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
+  DiMysql,
 } from "react-icons/di";
-import {  
-  SiFirebase,
-} from "react-icons/si";
 
-export default function Techstack() {
+export default function AboutSkills() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -30,7 +28,7 @@ export default function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiMysql />
       </Col>
     </Row>
   )
